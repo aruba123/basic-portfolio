@@ -1,54 +1,71 @@
 	<!DOCTYPE html>
-	<html>
-	
+<!doctype html>
+<html lang="en-us">
 
-	<head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+  content="width=device-width,initial-scale=1">
+  <title>Contact | Steven </title>
+  <link rel="stylesheet" type="text/css" href="asset/css/style.css">
+  <link rel="stylesheet" type="text/css" href="asset/css/style.css">
+</head>
 
-<link rel="stylesheet" type="text/css" href="style.css"> 
+<body>
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Steven </a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="#"><img src="asset/images/github-128.png" width="50px" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="asset/images/linkedin-128.png" width="50px" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="asset/images/stackoverflow-128.png"width="50px" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 2016 Steven Aruba
+    </div>
+  </footer>
 
 
-		<title></title>
+</body>
 
-	
-
-	</head>
-	
-
-
-
-
-	<body>
-
-	<h2> Contact</h2>
-	<hr>
-<form>
-  First name:<br>
-  <input type="text" name="firstname"><br>
-  Last name:<br>
-  <input type="text" name="lastname"><br>
-
-  Email:<br>
-  <input type="text" email="Email"><br>
-
-<br>
-<br>
-
-
-
-  <label for="message">message</label>
-    <textarea id="message" name="message" placeholder="write.." style="height:200px"></textarea> <br>
-    <br>
-
-<input type="submit" value="Submit">
-
-</form> 
-	
-
-
-
-
-
-	</body>
-
-
-	</html>
+</html>
